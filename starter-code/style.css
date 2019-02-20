@@ -1,0 +1,58 @@
+/* Layout */
+.clock {
+    position: relative;
+    background-image: url('img/clock_face.jpg');
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+  }
+
+
+  
+  .digitalClock {
+    position: absolute;
+    left: 210px;
+    bottom: 240px;
+    background-color: yellow;
+    width: 100px;
+    height: 20px;
+    text-align-last: center;
+
+  }
+  .digitalClock2 {
+    position: absolute;
+    left: 210px;
+    bottom: 240px;
+    background-color: yellow;
+    width: 100px;
+    height: 20px;
+    text-align-last: center;
+
+  }
+
+.h-hand {
+    position: absolute;
+    background-image: url('img/hour_hand.png');
+    width: 500px;
+    height: 500px;
+    background-size: contain; 
+  }
+  
+  .m-hand {
+    position: absolute;
+    background-image: url('img/minute_hand.png');
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+
+  }
+  
+  .s-hand {
+
+    position: absolute;
+    background-image: url('img/second_hand.png');
+    width: 500px;
+    height: 500px;
+    background-size: contain;
+
+  }
